@@ -1,0 +1,64 @@
+def game():
+    print("Bienvenu dans Donjons & Dragons")
+    classe = input("Quel classe souhaites-tu ?  \n G : Guerrier \n M : Magicien \n A : Archer")
+
+    if classe == "G":
+
+    print("  ,   A           {}")
+    print(" / \, | ,        .--.")
+    print("|    =|= >      /.--.\ ")
+    print(" \ /` | `       |====|")
+    print("  `   |         |`::`|  ")
+    print("      |     .-;`\..../`;_.-^-._")
+    print("      /\ /  /  |...::..|`   :   `|")
+    print("     |:'\ |   /'''::''|   .:.   |")
+    print("      \ /\;-,/\   ::  |..:::::..|")
+    print("      |       |       \    :    /")
+    print("      |       |        \   :   / ")
+    print("      |       |___/\___|`-.:.-`")
+    print("      |        \_ || _/    `")
+    print("      |        <_ >< _>")
+    print("      |        |  ||  |")
+    print("      |        |  ||  |")
+    print("      |       _\.:||:./_")
+    print("      |      /____/\____\ ")
+
+    if classe == "M":
+
+    if classe == "A":
+
+
+def load():
+    print("Nous chargeons votre sauvegarde")
+
+def credits():
+    print("Crédits")
+
+print("        ,     \    /      ,")
+print("       / \    )\__/(     / \ ")
+print("      /   \  (_\  /_)   /   \ ")
+print(" ____/_____\__\@  @/___/_____\____ ")
+print("|             |\../|              |")
+print("|              \VV/               |")
+print("|        ----------------         |")
+print("|_________________________________|")
+print(" |    /\ /      \ \      \ /\    |")
+print(" |  /   V        ))       V   \  |")
+print(" |/     `       //        '     \|")
+print(" `              V                '")
+
+input("Press Enter to continue...")
+print("N -- Lancer une nouvelle partie")
+print("L -- Charger une partie")
+print("C -- Crédits")
+print("Q -- Quitter")
+
+choice = str(input())
+if choice == "N":
+    game()
+if choice == "L":
+    load()
+if choice == "C":
+    credits()
+if choice == "Q":
+    exit()
