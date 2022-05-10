@@ -4,30 +4,29 @@ def game():
 
     if classe == "G":
 
-    print("  ,   A           {}")
-    print(" / \, | ,        .--.")
-    print("|    =|= >      /.--.\ ")
-    print(" \ /` | `       |====|")
-    print("  `   |         |`::`|  ")
-    print("      |     .-;`\..../`;_.-^-._")
-    print("      /\ /  /  |...::..|`   :   `|")
-    print("     |:'\ |   /'''::''|   .:.   |")
-    print("      \ /\;-,/\   ::  |..:::::..|")
-    print("      |       |       \    :    /")
-    print("      |       |        \   :   / ")
-    print("      |       |___/\___|`-.:.-`")
-    print("      |        \_ || _/    `")
-    print("      |        <_ >< _>")
-    print("      |        |  ||  |")
-    print("      |        |  ||  |")
-    print("      |       _\.:||:./_")
-    print("      |      /____/\____\ ")
+        print("  ,   A           {}")
+        print(" / \, | ,        .--.")
+        print("|    =|= >      /.--.\ ")
+        print(" \ /` | `       |====|")
+        print("  `   |         |`::`|  ")
+        print("      |     .-;`\..../`;_.-^-._")
+        print("      /\ /  /  |...::..|`   :   `|")
+        print("     |:'\ |   /'''::''|   .:.   |")
+        print("      \ /\;-,/\   ::  |..:::::..|")
+        print("      |       |       \    :    /")
+        print("      |       |        \   :   / ")
+        print("      |       |___/\___|`-.:.-`")
+        print("      |        \_ || _/    `")
+        print("      |        <_ >< _>")
+        print("      |        |  ||  |")
+        print("      |        |  ||  |")
+        print("      |       _\.:||:./_")
+        print("      |      /____/\____\ ")
 
     if classe == "M":
-
+        print("MaGicIeN")
     if classe == "A":
-
-
+        print("aRchEr")
 def load():
     print("Nous chargeons votre sauvegarde")
 
