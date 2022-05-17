@@ -25,6 +25,29 @@ def game():
 
     if classe == "M":
         print("MaGicIeN")
+print("                    ____ ")
+print("                  .'* *.'")
+print("               __/_*_*(_")
+print("              / _______ \")
+print("             _\_)/___\(_/_ ")
+print("            / _((\- -/))_ \")
+print("            \ \())(-)(()/ /")
+print("             ' \(((()))/ '")
+print("            / ' \)).))/ ' \")
+print("           / _ \ - | - /_  \")
+print("          (   ( .;''';. .'  )")
+print("          _\"__ /    )\ __"/_")
+print"(            \/  \   ' /  \/")
+print"(             .'  '...' ' )")
+print"(              / /  |  \ \")
+print"(             / .   .   . \")
+print"(            /   .     .   \")
+print"(           /   /   |   \   \")
+print"(         .'   /    b    '.  '.")
+print"(     _.-'    /     Bb     '-. '-._ ")
+print"( _.-'       |      BBb       '-.  '-. ")
+print"((________mrf\____.dBBBb.________)____)")
+
     if classe == "A":
         print("aRchEr")
 def load():
